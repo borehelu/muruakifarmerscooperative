@@ -1,0 +1,119 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.container{
+  margin-top: 2em;
+  padding: 2em;
+  max-width: 60vw;
+  height: 80vh;
+  background-color: #ffffff;
+  border: 1px solid #fafafa;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form{
+  margin-top: 1em;
+ 
+}
+
+.form form{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: .5em;
+}
+
+.footer{
+  text-align: center;
+  color: #888;
+  
+}
+
+.image-banner{
+  height: 20%;
+  text-align: center;
+  
+}
+
+.image-banner img{
+  height: 100%;
+  max-width: 100%;
+}
+
+.container h1{
+  color: #444;
+  text-align: center;
+  margin: .5em 0;
+  font-size: 1.6em;
+}
+
+form label{
+  align-self: flex-start;
+
+}
+
+
+form input,form label{
+  display: block;
+  
+}
+
+input{
+  margin: .5em 0;
+  padding: 5px 16px;
+  height: 40px;
+  width: 300px;
+  border: 2px solid rgba(0, 0, 0, 0.06);
+  border-radius: 1.5em;
+  outline: none;
+  transition: all;
+}
+
+input:focus{
+  border: 2px solid #EC407A;
+}
+
+input:first-of-type{
+  margin-bottom: 1em;
+}
+
+button{
+  width: 300px;
+  height: 40px;
+  margin-top: 1em;
+  background-color: #EC407A;
+  border: none;
+  border-radius: 1.5em;
+  color: #fff;
+  font-size: 1em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.forgot-password{
+  display: inline-block;
+  text-decoration: none;
+  color:rgba(0, 0, 0, 0.5);
+  font-size: .9em;
+  align-self: flex-end;
+  margin-right: 2em;
+}
